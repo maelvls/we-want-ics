@@ -25,7 +25,7 @@ from datetime import datetime,timedelta
 from sys import stdout,stdin
 
 try:
-    from icalendar import Calendar, Event, vDatetime # `pip3 install icalendar`
+    from icalendar import Calendar, Event, vDatetime, Timezone, TimezoneDaylight, TimezoneStandard
     from lxml import etree                           # `pip3 install lxml`
     from docopt import docopt                        # `pip3 install docopt`
 except ImportError:
@@ -60,22 +60,22 @@ def parse_celcat(f,g_filters,c_filters):
         course = ev.find("resources/module/item").text
         if (g_filters is None or any(any(str in g for g in groups) for str in g_filters))\
         and(c_filters is None or any(str in course for str in c_filters)):
-            ev_out.add('SUMMARY',course)
-            ev_out.add('LOCATION',
-                ev.find("resources/room/item").text if ev.find("resources/room/item")!=None else "")
+            ev_out['SUMMARY'] = course
+            ev_out['LOCATION'] =\
+                ev.find("resources/room/item").text if ev.find("resources/room/item")!=None else ""
             date = week_map[re.search("Y",ev.find("rawweeks").text).start()+1] + \
                             timedelta(days=int(ev.find("day").text))
             starttime = datetime.combine(date, datetime.strptime(ev.find("starttime").text, '%H:%M').time())
             endtime = datetime.combine(date, datetime.strptime(ev.find("endtime").text, '%H:%M').time())
-            ev_out.add("DTSTART",starttime)
-            ev_out.add("DTEND",endtime)
-            ev_out.add("UID",ev.attrib.get("id") + str(len(events))) # hand-crafted UID
-            ev_out.add("CREATED",datetime.now())
-            ev_out.add("LAST-MODIFIED",datetime.now())
-            ev_out.add("DESCRIPTION",
-                ("Remarques:\n" + ev.find("notes").text + "\n" if ev.find("notes") is not None else "")
-                + "Groupes:\n"+"".join("%s\n" % g for g in groups))
-            ev_out.add("STATUS","CONFIRMED")
+            ev_out["DTSTART"] = vDatetime(starttime).to_ical()
+            ev_out["DTEND"] = vDatetime(endtime).to_ical()
+            ev_out["UID"] = ev.attrib.get("id") + str(len(events)) # hand-crafted UID
+            ev_out["CREATED"] = vDatetime(datetime.now()).to_ical()
+            ev_out["LAST-MODIFIED"] = vDatetime(datetime.now()).to_ical()
+            ev_out["DESCRIPTION"] = \
+                ("Remarques:\n" + ev.find("notes").text + "\n" if ev.find("notes") is not None else "")\
+                + "Groupes:\n"+"".join("%s\n" % g for g in groups)
+            ev_out["STATUS"] = "CONFIRMED"
             events.append(ev_out)
     return events
 
@@ -93,33 +93,41 @@ def main():
 
     events = parse_celcat(input_file,group_filters,course_filters)
     cal = Calendar()
-    cal.add("VERSION",2.0)
-    cal.add("PRODID","-//MultiAgentSystems.org//University Calendar//EN")
-    cal.add("CALSCALE","GREGORIAN")
-    cal.add("METHOD","PUBLISH")
-    cal.add("X-WR-CALNAME","")
-    cal.add("X-WR-TIMEZONE","Europe/Paris")
-    cal.add("BEGIN","VTIMEZONE")
-    cal.add("TZID","Europe/Paris")
-    cal.add("X-LIC-LOCATION","Europe/Paris")
-    cal.add("BEGIN","DAYLIGHT")
-    cal.add("TZOFFSETFROM",timedelta(hours=1)) # +0100
-    cal.add("TZOFFSETTO",timedelta(hours=2)) # +0200
-    cal.add("TZNAME","CEST")
-    cal.add("DTSTART",vDatetime.from_ical("19961027T030000"))
-    cal.add("RRULE",dict({"FREQ": "YEARLY","BYMONTH": 3, "BYDAY": "-1SU"}))
-    cal.add("END", "DAYLIGHT")
-    cal.add("BEGIN","STANDARD")
-    cal.add("TZOFFSETFROM",timedelta(hours=2))
-    cal.add("TZOFFSETTO",timedelta(hours=1))
-    cal.add("TZNAME","CET")
-    cal.add("RRULE",dict({"FREQ": "YEARLY", "BYMONTH": 10, "BYDAY": "-1SU"}))
-    cal.add("END","STANDARD")
-    cal.add("END","VTIMEZONE")
+    cal["VERSION"] = 2.0
+    cal["PRODID"] = "Some proid"
+    cal["CALSCALE"] = "GREGORIAN"
+    cal["METHOD"] = "PUBLISH"
+    cal["X-WR-CALNAME"] = "CELCAT to ICS generated calendar"
+    cal["X-WR-TIMEZONE"] = "Europe/Paris"
+    tz = Timezone()
+    tz["TZID"] = "Europe/Paris"
+    tz["X-LIC-LOCATION"] = "Europe/Paris"
+
+    tz_day = TimezoneDaylight()
+    tz_day["DTSTART"] = "19810329T020000"
+    tz_day["TZOFFSETFROM"] = "+0100"
+    tz_day["TZOFFSETTO"] = "+0200"
+    tz_day["TZNAME"] = "CEST"
+    tz_day["RRULE"] = "FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU"
+
+    tz_std = TimezoneStandard()
+    tz_std["DTSTART"] = "19961027T030000"
+    tz_std["TZOFFSETFROM"] = "+0200"
+    tz_std["TZOFFSETTO"] = "+0100"
+    tz_std["TZNAME"] = "CET"
+    tz_std["RRULE"] = "FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU"
+
+    tz.add_component(tz_day)
+    tz.add_component(tz_std)
+    cal.add_component(tz)
+
     for e in events:
         cal.add_component(e)
 
-    output_file.write(cal.to_ical().decode("utf-8").replace('\\r\\n', '\n').strip())
+    output_file.write(cal.to_ical().decode("utf-8")
+        .replace('\\r\\n', '\n')
+        .replace('\;', ';')
+        .strip())
 
 if __name__ == "__main__":
     main()

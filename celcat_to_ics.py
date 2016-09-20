@@ -24,24 +24,16 @@ import re # regex expressions for "rawweeks"
 from datetime import datetime,timedelta
 from sys import stdout,stdin
 
-from icalendar import Calendar, Event, vDatetime # `pip3 install icalendar`
-from lxml import etree                           # `pip3 install lxml`
-from docopt import docopt                        # `pip3 install docopt`
-import pdb
-
-def find_courses(f):
-    tree = etree.parse(f)
-    courses=set()
-    for course in tree.xpath("/timetable/event/resources/module/item"):
-        courses.add(course.text)
-    return set(courses)
-
-def find_groups(f):
-    tree = etree.parse(f)
-    groups=set()
-    for g in tree.xpath("/timetable/event/resources/group/item"):
-        groups.add(g.text)
-    return set(groups)
+try:
+    from icalendar import Calendar, Event, vDatetime # `pip3 install icalendar`
+    from lxml import etree                           # `pip3 install lxml`
+    from docopt import docopt                        # `pip3 install docopt`
+except ImportError:
+    print("=================================================================")
+    print("IMPORTANT: you must install icalendar, lxml and docopt. Run this:")
+    print("   pip3 install icalendar lxml docopt                            ")
+    print("=================================================================")
+    raise
 
 def parse_celcat(f,g_filters,c_filters):
     """

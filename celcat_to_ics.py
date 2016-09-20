@@ -77,7 +77,8 @@ def parse_celcat(f,g_filters,c_filters):
                 + "Groupes:\n"+"".join("%s\n" % g for g in groups)
             ev_out["STATUS"] = "CONFIRMED"
             events.append(ev_out)
-    return events
+        calname = xml.xpath("/timetable/option/subheading")[0].text
+    return events, calname
 
 def main():
     args = docopt(__doc__,version=
@@ -91,13 +92,13 @@ def main():
     group_filters = args["-g"].split(",") if args["-g"] is not None else None
     course_filters = args["-c"].split(",") if args["-c"] is not None else None
 
-    events = parse_celcat(input_file,group_filters,course_filters)
+    events,calname = parse_celcat(input_file,group_filters,course_filters)
     cal = Calendar()
     cal["VERSION"] = 2.0
     cal["PRODID"] = "Some proid"
     cal["CALSCALE"] = "GREGORIAN"
     cal["METHOD"] = "PUBLISH"
-    cal["X-WR-CALNAME"] = "CELCAT to ICS generated calendar"
+    cal["X-WR-CALNAME"] = calname
     cal["X-WR-TIMEZONE"] = "Europe/Paris"
     tz = Timezone()
     tz["TZID"] = "Europe/Paris"

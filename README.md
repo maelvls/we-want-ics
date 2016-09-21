@@ -1,4 +1,4 @@
-celcat_to_ics, the tiny python parser for getting rid of this hiddeous
+`celcat_to_ics.py`, the tiny python parser for getting rid of this hiddeous
 and unusable CELCAT Timetable from the 90's and that does even have .ics
 export (at least not on edt.univ-tlse3.fr)
 
@@ -11,16 +11,32 @@ replace the ending `.html` with `.xml` and run it.
     | ./celcat_to_ics.py --stdin -g TPA11,TPA12 -c Info > L1_CUPGE_TDA1.ics
 In this example, with want to get the `.ics` from the `.xml` CELCAT Timetable.
 We first fetch the `.xml` and pass it to the parser; the options are:
+
 - `-g TPA11,TPA12` selects the events where the group name has "TPA11" or 
   "TPA12" in it.
 - `-c Info` selects the events where the event name (or course/class name)
   has "Info" in it.
 
+To be able to import the resulting `ics` file into Google Calendar (or iCloud),
+you need to push it to a place that serves HTML pages. The scheme would be
+
+```
+curl cal.xml  ->  celcat_to_ics.py  ->  cal.ics on apache server  -> google calendar
+<------------ python server ------->   <------- html server ----->
+```
+
+My configuration is:
+
+- I run the python script on private server at IMT;
+  it runs as a cron job every once in a while (2h)
+- it then pushes the `.ics` files to a [public server](mvalais.perso.math.cnrs.fr/ics)
+
 
 
 ## Features
 
-1. allows you to filter on the courses names, e.g.,
+1. The produced `.ics` is compatible with Google Calendar and iCloud
+2. allows you to filter on the courses names, e.g.,
    if we have the courses called
       
         EPTRI1A1 - Informatique
@@ -37,7 +53,7 @@ We first fetch the `.xml` and pass it to the parser; the options are:
       
         -g matique
       
-2. allows you to filter on the group names; this is really useful
+3. allows you to filter on the group names; this is really useful
    when you are a professor assigned to practical works (TP in french)
    and you want to track only the groups you care about.
    Say we have numerous course names:
@@ -62,11 +78,12 @@ We first fetch the `.xml` and pass it to the parser; the options are:
    Also note that `-c` and `-g` are used in conjunction (logical AND).
 
 
-## Restrictions
+## TODO
 
-- only accepts one XML/CELCAT file in input, no batch-like calendar yet
-- filtering groups and courses is limited to expressions without spaces
-- it is not (yet) possible to change the group and class names to custom and friendlier names
+- accept multiple XML/CELCAT file in input for building one unique `.ics` for all your courses
+- allow the spaces in the filters for groups and courses
+- allow a way to change the names of the courses for friendlier/handier reading on your smartphone when the original title isn't nice enough
+- make sure that the user won't miss any "special" events, because filtering implies that the other events won't be shown
 
 
 ## Dependencies

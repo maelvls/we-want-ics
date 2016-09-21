@@ -11,7 +11,7 @@
 Usage: celcat_to_ics.py [-d] [-c str[,...]] [-g str[,...]] [-o OUTPUT] (- | INPUT)
 
 INPUT           is the celcat .xml you want to parse
-- --stdin       use stdin for input instead of INTPUT
+-               use stdin for input instead of INTPUT
 -o OUTPUT       specify output .ics file (uses stdout by default)
 -c str[,...]    only keep courses where name contains "str"; you can give
                 multiple filtering strings, separate them using commas

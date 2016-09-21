@@ -7,10 +7,11 @@
 #
 # Distributed under terms of the MIT license.
 
-"""Usage: celcat_to_ics.py [-d] [-c str[,...]] [-g str[,...]] [-o OUTPUT] (INPUT | --stdin)
+"""
+Usage: celcat_to_ics.py [-d] [-c str[,...]] [-g str[,...]] [-o OUTPUT] (- | INPUT)
 
 INPUT           is the celcat .xml you want to parse
--s --stdin      use stdin for input instead of INTPUT
+- --stdin       use stdin for input instead of INTPUT
 -o OUTPUT       specify output .ics file (uses stdout by default)
 -c str[,...]    only keep courses where name contains "str"; you can give
                 multiple filtering strings, separate them using commas
@@ -86,7 +87,7 @@ def main():
         "courses file (see Nathanael\'s scripts)")
     if args["-d"]: print(args)
 
-    input_file = stdin if args["--stdin"] else open(args["INPUT"],'r')
+    input_file = stdin if args["-"] else open(args["INPUT"],'r')
     output_file = stdout if args["-o"] is None else open(args["-o"],'w')
 
     group_filters = args["-g"].split(",") if args["-g"] is not None else None

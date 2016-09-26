@@ -8,16 +8,14 @@
 # Distributed under terms of the MIT license.
 
 """
-Usage: celcat_to_ics.py [-d] [-c str[,...]] [-g str[,...]] [-o OUTPUT] (- | INPUT)
+Usage: celcat_to_ics.py [-d] [-r filter] [-o OUTPUT] (- | INPUT ...)
 
+-h --help       show this
 INPUT           is the celcat .xml you want to parse
 -               use stdin for input instead of INTPUT
 -o OUTPUT       specify output .ics file (uses stdout by default)
--c str[,...]    only keep courses where name contains "str"; you can give
-                multiple filtering strings, separate them using commas
--g str[,...]    only keep courses where group contains "str"; same as above
 -d              turn on debugging (will display the cmd-line arguments given)
--h --help       show this
+-r filter       turn on regex filtering
 
 """
 
@@ -36,9 +34,9 @@ except ImportError:
     print("=================================================================")
     raise
 
-def parse_celcat(f,g_filters,c_filters):
+def parse_celcat(f, filter=[], debug=False):
     """
-    :param f: the already open XML CELCAT file
+    :param filter: the already open XML CELCAT file
     :param g_filters: single string with comma-separated patterns to filter groups.
            With "TP11,TP12", "EDG1RTP12" is returned
     :param c_filters: same but for the courses
@@ -54,13 +52,20 @@ def parse_celcat(f,g_filters,c_filters):
         # of Y in NNNYNNNNNNN. 2- find the begin date of the corresponding week
         # which was given by rawix in the span block. 3- add "day" to this date
         week_map[int(span.get("rawix"))] = datetime.strptime(span.get("date"),'%d/%m/%Y')
+
+    if debug:
+        print("Filter: "+"\n or ".join(["(group=(" + " ".join([comma for comma in plus[0]])
+             + ") and course=(" + " or ".join([comma for comma in plus[1]]) + "))" for plus in filter]))
     events = []
     for ev in xml.xpath("/timetable/event"):
         ev_out = Event()
         groups = [a.text for a in ev.findall("resources/group/item")]
         course = ev.find("resources/module/item").text
-        if (g_filters is None or any(any(str in g for g in groups) for str in g_filters))\
-        and(c_filters is None or any(str in course for str in c_filters)):
+
+        # See comment in main() for more precision; as a remainnder:
+        # ((TPA31 or TPA32) and (Info or Logique)) or (TPA11 and Info)
+
+        if any(any(any(comma in g for g in groups) for comma in plus[0]) and any(comma in course for comma in plus[1]) for plus in filter):
             ev_out['SUMMARY'] = course
             ev_out['LOCATION'] =\
                 ev.find("resources/room/item").text if ev.find("resources/room/item")!=None else ""
@@ -82,24 +87,29 @@ def parse_celcat(f,g_filters,c_filters):
     return events, calname
 
 def main():
-    args = docopt(__doc__,version=
-        "Utility for extracting courses from a celcat xml to a *plain* "
-        "courses file (see Nathanael\'s scripts)")
+    args = docopt(__doc__)
     if args["-d"]: print(args)
 
-    input_file = stdin if args["-"] else open(args["INPUT"],'r')
+    input_file = stdin if args["-"] is None else [open(i,'r') for i in args["INPUT"]]
     output_file = stdout if args["-o"] is None else open(args["-o"],'w')
 
-    group_filters = args["-g"].split(",") if args["-g"] is not None else None
-    course_filters = args["-c"].split(",") if args["-c"] is not None else None
+    # :filter has the form "TPA31,TPA32:Info,Logique+TPA11:Info"
+    # It becomes filter[+ separated items (OR)][0=groups,1=courses)][, separated items (OR)]
+    # <=> ((TPA31 or TPA32) and (Info or Logique)) or (TPA11 and Info)
+    #filter = args["-r"].split("+").split(",") if args["-r"] is not None else None
+    filter = [[x.split(",") for x in e.split(":")] for e in args["-r"].split("+")]
 
-    events,calname = parse_celcat(input_file,group_filters,course_filters)
     cal = Calendar()
+    for i in input_file:
+        events,calname = parse_celcat(i,filter,args["-d"])
+        for e in events:
+            cal.add_component(e)
+
     cal["VERSION"] = 2.0
     cal["PRODID"] = "Some proid"
     cal["CALSCALE"] = "GREGORIAN"
     cal["METHOD"] = "PUBLISH"
-    cal["X-WR-CALNAME"] = calname
+    cal["X-WR-CALNAME"] = "Calendar"
     cal["X-WR-TIMEZONE"] = "Europe/Paris"
     tz = Timezone()
     tz["TZID"] = "Europe/Paris"
@@ -122,9 +132,6 @@ def main():
     tz.add_component(tz_day)
     tz.add_component(tz_std)
     cal.add_component(tz)
-
-    for e in events:
-        cal.add_component(e)
 
     output_file.write(cal.to_ical().decode("utf-8")
         .replace('\\r\\n', '\n')

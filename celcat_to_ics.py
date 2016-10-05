@@ -79,8 +79,10 @@ def parse_celcat(f, filter=[], debug=False):
 
         # See comment in main() for more precision; as a remainnder:
         # ((TPA31 or TPA32) and (Info or Logique)) or (TPA11 and Info)
-
-        if any(any(any(comma in g for g in groups) for comma in plus[0]) and any(comma in course for comma in plus[1]) for plus in filter):
+        if filter == [] \
+            or any( any(any(comma in g for g in groups) for comma in plus[0])\
+                    and any(comma in course for comma in plus[1])\
+            for plus in filter):
             ev_out['SUMMARY'] = course
             ev_out['LOCATION'] =\
                 ev.find("resources/room/item").text if ev.find("resources/room/item")!=None else ""
@@ -112,7 +114,8 @@ def main():
     # It becomes filter[+ separated items (OR)][0=groups,1=courses)][, separated items (OR)]
     # <=> ((TPA31 or TPA32) and (Info or Logique)) or (TPA11 and Info)
     #filter = args["-r"].split("+").split(",") if args["-r"] is not None else None
-    filter = [[x.split(",") for x in e.split(":")] for e in args["-r"].split("+")]
+    filter = [] if args["-r"] is None else \
+        [[x.split(",") for x in e.split(":")] for e in args["-r"].split("+")]
 
     cal = Calendar()
     for i in input_file:

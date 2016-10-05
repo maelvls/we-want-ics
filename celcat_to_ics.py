@@ -8,15 +8,30 @@
 # Distributed under terms of the MIT license.
 
 """
-Usage: celcat_to_ics.py [-d] [-r filter] [-o OUTPUT] (- | INPUT ...)
+Usage: celcat_to_ics.py [-d] [-r FILTER] [-o OUTPUT] (- | INPUT ...)
 
 -h --help       show this
 INPUT           is the celcat .xml you want to parse
 -               use stdin for input instead of INTPUT
 -o OUTPUT       specify output .ics file (uses stdout by default)
 -d              turn on debugging (will display the cmd-line arguments given)
--r filter       turn on regex filtering
+-r FILTER       turn on regex filtering
 
+FILTER is a string of the form
+        "G1[,G2...]:C1[,C2...][+...]"
+    which translates to "select events that have G1 or G2 in their group name
+    AND that have C1 or C2 in their course name. The "+" separates multiple of
+    these filters and behaves like a OR.
+
+    Example:
+        "L1 Chimie s1 - TPA12:Info+\
+        L1 CUPGE s1 - TPA12:Info+\
+        L1 Info s1 - TPB31:Info+\
+        L2 Info s1 - TPA32:Syst+\
+        L2 Info s1 - TPA41,L2 Info s1 - TPA42,L2 Info s1 - TPA52:Logique"
+
+    Note: "+",":" and "," are reserved keywords. You can use spaces. You don't
+    need to enter the full group/course name (only needs to be a part of it).
 """
 
 import re # regex expressions for "rawweeks"

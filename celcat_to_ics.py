@@ -74,15 +74,19 @@ def parse_celcat(f, filter=[], debug=False):
     events = []
     for ev in xml.xpath("/timetable/event"):
         ev_out = Event()
+        category = ev.find("category").text
         groups = [a.text for a in ev.findall("resources/group/item")]
-        course = ev.find("resources/module/item").text
+        course = ev.find("resources/module/item")
+        course = course.text if course is not None else None
 
         # See comment in main() for more precision; as a remainnder:
         # ((TPA31 or TPA32) and (Info or Logique)) or (TPA11 and Info)
-        if filter == [] \
-            or any( any(any(comma in g for g in groups) for comma in plus[0])\
+        if  filter == [] \
+            or (course is not None
+                and any( any(any(comma in g for g in groups) for comma in plus[0])\
                     and any(comma in course for comma in plus[1])\
-            for plus in filter):
+                for plus in filter)
+            ):
             ev_out['SUMMARY'] = course
             ev_out['LOCATION'] =\
                 ev.find("resources/room/item").text if ev.find("resources/room/item")!=None else ""

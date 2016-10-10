@@ -81,11 +81,12 @@ def parse_celcat(f, filter=[], debug=False):
 
         # See comment in main() for more precision; as a remainnder:
         # ((TPA31 or TPA32) and (Info or Logique)) or (TPA11 and Info)
-        if  filter == [] \
+        if (filter == []
             or (course is not None
-                and any( any(any(comma in g for g in groups) for comma in plus[0])\
-                    and any(comma in course for comma in plus[1])\
+                and any( any(any(comma in g for g in groups) for comma in plus[0])
+                    and any(comma in course for comma in plus[1])
                 for plus in filter)
+                )
             ):
             ev_out['SUMMARY'] = course
             ev_out['LOCATION'] =\
@@ -99,9 +100,11 @@ def parse_celcat(f, filter=[], debug=False):
             ev_out["UID"] = ev.attrib.get("id") + str(len(events)) # hand-crafted UID
             ev_out["CREATED"] = vDatetime(datetime.now()).to_ical()
             ev_out["LAST-MODIFIED"] = vDatetime(datetime.now()).to_ical()
-            ev_out["DESCRIPTION"] = \
-                ("Remarques:\n" + ev.find("notes").text + "\n" if ev.find("notes") is not None else "")\
-                + "Groupes:\n"+"".join("%s\n" % g for g in groups)
+            ev_out["DESCRIPTION"] = (
+                ("Remarques:\n" + ev.find("notes").text + "\n" if ev.find("notes") is not None else "")
+                + "Groupes:\n"+"".join("%s\n" % g for g in groups) + "\n"
+                + "Generated from CELCAT on: " + datetime.now().strftime("%d-%m-%Y %H:%M")
+            )
             ev_out["STATUS"] = "CONFIRMED"
             events.append(ev_out)
         calname = xml.xpath("/timetable/option/subheading")[0].text
@@ -111,21 +114,17 @@ def main():
     args = docopt(__doc__)
     if args["-d"]: print(args)
 
-    input_file = [stdin] if args["-"] is not None else [open(i,'r') for i in args["INPUT"]]
+    input_files = [stdin] if args["-"] is not None else [open(i,'r') for i in args["INPUT"]]
     output_file = stdout if args["-o"] is None else open(args["-o"],'w')
 
     # :filter has the form "TPA31,TPA32:Info,Logique+TPA11:Info"
     # It becomes filter[+ separated items (OR)][0=groups,1=courses)][, separated items (OR)]
     # <=> ((TPA31 or TPA32) and (Info or Logique)) or (TPA11 and Info)
-    #filter = args["-r"].split("+").split(",") if args["-r"] is not None else None
-    filter = [] if args["-r"] is None else \
+    # filter = args["-r"].split("+").split(",") if args["-r"] is not None else None
+    filter_string = [] if args["-r"] is None else \
         [[x.split(",") for x in e.split(":")] for e in args["-r"].split("+")]
 
     cal = Calendar()
-    for i in input_file:
-        events,calname = parse_celcat(i,filter,args["-d"])
-        for e in events:
-            cal.add_component(e)
 
     cal["VERSION"] = 2.0
     cal["PRODID"] = "Some proid"
@@ -155,6 +154,10 @@ def main():
     tz.add_component(tz_std)
     cal.add_component(tz)
 
+    for i in input_files:
+        events,calname = parse_celcat(i,filter_string,args["-d"])
+        for e in events:
+            cal.add_component(e)
     output_file.write(cal.to_ical().decode("utf-8")
         .replace('\\r\\n', '\n')
         .replace('\;', ';')

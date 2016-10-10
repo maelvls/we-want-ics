@@ -8,14 +8,20 @@ replace the ending `.html` with `.xml` and run it.
 ## Example
 
     curl https://edt.univ-tlse3.fr/FSI/FSImentionL/Math/g29617.xml\
-    | ./celcat_to_ics.py --stdin -g TPA11,TPA12 -c Info > L1_CUPGE_TDA1.ics
+    | ./celcat_to_ics.py - -r "L1 Chimie s1 - TPA12:Info+L1 CUPGE s1 - TPA12:Info+\
+        L2 Info s1 - TPA41,L2 Info s1 - TPA42,L2 Info s1 - TPA52:Logique" > calendar.ics
 In this example, with want to get the `.ics` from the `.xml` CELCAT Timetable.
-We first fetch the `.xml` and pass it to the parser; the options are:
+We first fetch the `.xml` and pass it to the parser.
 
-- `-g TPA11,TPA12` selects the events where the group name has "TPA11" or 
-  "TPA12" in it.
-- `-c Info` selects the events where the event name (or course/class name)
-  has "Info" in it.
+FILTER is a string of the form
+        "G1[,G2...]:C1[,C2...][+...]"
+which translates to "select events that have G1 or G2 in their group name AND that have
+C1 or C2 in their course name. The "+" separates multiple of these filters and behaves
+like a OR.
+
+Note: "+",":" and "," are reserved keywords. You can use spaces. You don't
+need to enter the full group/course name (only needs to be a part of it).
+
 
 To be able to import the resulting `ics` file into Google Calendar (or iCloud),
 you need to push it to a place that serves HTML pages. The scheme would be
@@ -29,61 +35,14 @@ My configuration is:
 
 - I run the python script on private server at IMT;
   it runs as a cron job every once in a while (2h)
-- it then pushes the `.ics` files to a [public server](mvalais.perso.math.cnrs.fr/ics)
-
-
-
-## Features
-
-1. The produced `.ics` is compatible with Google Calendar and iCloud
-2. allows you to filter on the courses names, e.g.,
-   if we have the courses called
-      
-        EPTRI1A1 - Informatique
-        EPNFM1A1 - Mathématiques
-        EPPCP1C1 - Lumière et couleur
-   
-   and that you use the argument
-   
-        -g Math,Info
-   
-   then the resulting `.ics` will only contain the courses *Informatique*
-   and *Mathématiques*. You can even be clever and get the same result
-   only using one pattern matching:
-      
-        -g matique
-      
-3. allows you to filter on the group names; this is really useful
-   when you are a professor assigned to practical works (TP in french)
-   and you want to track only the groups you care about.
-   Say we have numerous course names:
-      
-        L1 Chimie s1 - TDA1
-        L1 Chimie s1 - TDA2
-        L1 Chimie s1 - TDA3
-        L1 Chimie s1 - TDA4
-        L1 Chimie s1 - TDA5
-        L1 Chimie s1 - TDA6
-        L1 Chimie s1 - TPB11
-        L1 Chimie s1 - TPB21
-        L1 CUPGE s1 - TDA1
-        L1 CUPGE s1 - TDA2
-        L1 CUPGE s1 - TDA3
-   We only want to track the classes where the group A3 and the group
-   A6. We do:
-      
-        -c A3,A6
-      
-   Note that for now, no space is allowed in the filter expression.
-   Also note that `-c` and `-g` are used in conjunction (logical AND).
-
+- it then pushes the `.ics` files to a [public server](math.univ-toulouse.fr/~mvalais/ics)
 
 ## TODO
 
-- accept multiple XML/CELCAT file in input for building one unique `.ics` for all your courses
-- allow the spaces in the filters for groups and courses
-- allow a way to change the names of the courses for friendlier/handier reading on your smartphone when the original title isn't nice enough
-- make sure that the user won't miss any "special" events, because filtering implies that the other events won't be shown
+- [x] accept multiple XML/CELCAT file in input for building one unique `.ics` for all your courses
+- [x] allow the spaces in the filters for groups and courses
+- [ ] allow a way to change the names of the courses for friendlier/handier reading on your smartphone when the original title isn't nice enough
+- [ ] make sure that the user won't miss any "special" events, because filtering implies that the other events won't be shown
 
 
 ## Dependencies
@@ -94,6 +53,9 @@ Three `pip` packages are used: `icalendar`, `lxml` and `docopt`. To install them
 
 
 ## Performance
+
+WARNING: these tests have been made on a previous version, but the performance is essentially
+the same on the newest version.
 
 Parsing one average `.xml` CELCAT file takes about 100ms for a 3460 lines XML file.
 Example with two filters (more filters => heavier computation)
@@ -109,15 +71,4 @@ When parsing with a little more filters, the execution is slightly longer:
 
 ## Detailed usage
 
-```
-celcat_to_ics.py [-d] [-c str[,...]] [-g str[,...]] [-o OUTPUT] (INPUT | --stdin)
-
-INPUT           is the celcat .xml you want to parse
--s --stdin      use stdin for input instead of INTPUT
--o OUTPUT       specify output .ics file (uses stdout by default)
--c str[,...]    only keep courses where name contains "str"; you can give
-                multiple filtering strings, separate them using commas
--g str[,...]    only keep courses where group contains "str"; same as above
--d              turn on debugging (will display the cmd-line arguments given)
--h --help       show this
-```
+See usage in `celcat_to_ics.py`.

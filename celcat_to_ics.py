@@ -111,7 +111,7 @@ def main():
     args = docopt(__doc__)
     if args["-d"]: print(args)
 
-    input_file = stdin if args["-"] is None else [open(i,'r') for i in args["INPUT"]]
+    input_file = [stdin] if args["-"] is not None else [open(i,'r') for i in args["INPUT"]]
     output_file = stdout if args["-o"] is None else open(args["-o"],'w')
 
     # :filter has the form "TPA31,TPA32:Info,Logique+TPA11:Info"

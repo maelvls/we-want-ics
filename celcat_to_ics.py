@@ -68,9 +68,6 @@ def parse_celcat(f, filter=[], debug=False):
         # which was given by rawix in the span block. 3- add "day" to this date
         week_map[int(span.get("rawix"))] = datetime.strptime(span.get("date"),'%d/%m/%Y')
 
-    if debug:
-        print("Filter: "+"\n or ".join(["(group=(" + " ".join([comma for comma in plus[0]])
-             + ") and course=(" + " or ".join([comma for comma in plus[1]]) + "))" for plus in filter]))
     events = []
     for ev in xml.xpath("/timetable/event"):
         ev_out = Event()
@@ -112,7 +109,6 @@ def parse_celcat(f, filter=[], debug=False):
 
 def main():
     args = docopt(__doc__)
-    if args["-d"]: print(args)
 
     input_files = [stdin] if args["-"] else [open(i,'r') for i in args["INPUT"]]
     output_file = stdout if args["-o"] is None else open(args["-o"],'w')
@@ -123,6 +119,14 @@ def main():
     # filter = args["-r"].split("+").split(",") if args["-r"] is not None else None
     filter_string = [] if args["-r"] is None else \
         [[x.split(",") for x in e.split(":")] for e in args["-r"].split("+")]
+
+    if args["-d"]:
+        print("Positional parameters:\n", args, "\n")
+        l=["  course is {(" + ") or (".join([j for j in i[0]]) + ")}"
+           + "\n  and group is {(" + ") or (".join([j for j in i[1]]) + ")}"
+           for i in filter_string]
+        print("Filters:\n" + "\nOR\n".join(l))
+
 
     cal = Calendar()
 

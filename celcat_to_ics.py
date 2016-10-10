@@ -14,7 +14,8 @@ Usage: celcat_to_ics.py [-d] [-r FILTER] [-o OUTPUT] (- | INPUT ...)
 INPUT           is the celcat .xml you want to parse
 -               use stdin for input instead of INTPUT
 -o OUTPUT       specify output .ics file (uses stdout by default)
--d              turn on debugging (will display the cmd-line arguments given)
+-d              displays the arguments given and a "human-readable"
+                version of the given FILTER
 -r FILTER       turn on regex filtering
 
 FILTER is a string of the form

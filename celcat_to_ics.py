@@ -8,15 +8,17 @@
 # Distributed under terms of the MIT license.
 
 """
-Usage: celcat_to_ics.py [-d] [-r FILTER] [-o OUTPUT] (- | INPUT ...)
+Usage: celcat_to_ics.py [options] [-r FILTER] [-o OUTPUT] (- | INPUT ...)
+       celcat_to_ics.py --version
 
--h --help       show this
-INPUT           is the celcat .xml you want to parse
+-h, --help      show this
+INPUT           is the celcat .xml you want to parse (you can give multiple)
 -               use stdin for input instead of INTPUT
 -o OUTPUT       specify output .ics file (uses stdout by default)
--d              displays the arguments given and a "human-readable"
-                version of the given FILTER
 -r FILTER       turn on regex filtering
+--log FILE      logs output to a file [default: output.out]
+-v              verbose mode: displays the arguments given
+                and a "human-readable" version of FILTER
 
 FILTER is a string of the form
         "G1[,G2...]:C1[,C2...][+...]"
@@ -38,6 +40,10 @@ FILTER is a string of the form
 import re # regex expressions for "rawweeks"
 from datetime import datetime,timedelta
 from sys import stdout,stdin
+from quicklog import * # this is my friend's, Eric Moyer; depends on `pip3 install colorama`
+
+__all__ = ['docopt','icalendar','lxml','colorama']
+__version__ = '0.1.0'
 
 try:
     from icalendar import Calendar, Event, vDatetime, Timezone, TimezoneDaylight, TimezoneStandard
@@ -45,17 +51,16 @@ try:
     from docopt import docopt                        # `pip3 install docopt`
 except ImportError:
     print("=================================================================")
-    print("IMPORTANT: you must install icalendar, lxml and docopt. Run this:")
-    print("   pip3 install icalendar lxml docopt                            ")
+    print("IMPORTANT: some pip3 packages are missing. Run this:             ")
+    print("   pip3 install "," ".join(__all__),"                            ")
     print("=================================================================")
     raise
 
-def parse_celcat(f, filter=[], debug=False):
+def parse_celcat(f, filter=[]):
     """
-    :param filter: the already open XML CELCAT file
-    :param g_filters: single string with comma-separated patterns to filter groups.
+    :param f: the already open XML CELCAT file
+    :param filter: single string with comma-separated patterns to filter groups.
            With "TP11,TP12", "EDG1RTP12" is returned
-    :param c_filters: same but for the courses
     :return: a list of icalendar.Event
     """
     xml = etree.parse(f)
@@ -109,7 +114,14 @@ def parse_celcat(f, filter=[], debug=False):
     return events, calname
 
 def main():
-    args = docopt(__doc__)
+    args = docopt(doc=__doc__,version=__version__)
+    log = Quicklog(application_name="celcat_to_ics",
+                   enable_colored_logging=False,
+                   enable_colored_printing=True,
+                   log_filename=args['--log'],
+                   print_level=logging.DEBUG if args['-v'] else logging.WARNING,
+                   logging_level=logging.DEBUG,
+                   version=__version__)
 
     input_files = [stdin] if args["-"] else [open(i,'r') for i in args["INPUT"]]
     output_file = stdout if args["-o"] is None else open(args["-o"],'w')
@@ -120,13 +132,12 @@ def main():
     # filter = args["-r"].split("+").split(",") if args["-r"] is not None else None
     filter_string = [] if args["-r"] is None else \
         [[x.split(",") for x in e.split(":")] for e in args["-r"].split("+")]
-
-    if args["-d"]:
-        print("Positional parameters:\n", args, "\n")
-        l=["  course is {(" + ") or (".join([j for j in i[0]]) + ")}"
-           + "\n  and group is {(" + ") or (".join([j for j in i[1]]) + ")}"
-           for i in filter_string]
-        print("Filters:\n" + "\nOR\n".join(l))
+    log.begin(show=False)
+    log.debug("Positional parameters:\n"+str(args)+"\n")
+    l=["  course is {(" + ") or (".join([j for j in i[0]]) + ")}" +
+       "\n  and group is {(" + ") or (".join([j for j in i[1]]) + ")}"
+        for i in filter_string]
+    log.debug("Filters:\n" + "\nOR\n".join(l))
 
 
     cal = Calendar()
@@ -160,13 +171,15 @@ def main():
     cal.add_component(tz)
 
     for i in input_files:
-        events,calname = parse_celcat(i,filter_string,args["-d"])
+        events,calname = parse_celcat(i,filter_string)
         for e in events:
             cal.add_component(e)
     output_file.write(cal.to_ical().decode("utf-8")
         .replace('\\r\\n', '\n')
         .replace('\;', ';')
         .strip())
+
+    log.end()
 
 if __name__ == "__main__":
     main()

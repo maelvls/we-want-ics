@@ -10,6 +10,7 @@
 """
 Usage: celcat_to_ics.py [options] [-r FILTER] [-o OUTPUT] (- | INPUT ...)
        celcat_to_ics.py --version
+       celcat_to_ics.py (--help | -h)
 
 -h, --help      show this
 INPUT           is the celcat .xml you want to parse (you can give multiple)

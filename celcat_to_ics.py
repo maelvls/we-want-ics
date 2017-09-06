@@ -110,7 +110,7 @@ def parse_celcat(f, filter=[]):
             )
             ev_out["STATUS"] = "CONFIRMED"
             events.append(ev_out)
-        calname = xml.xpath("/timetable/option/subheading")[0].text
+    calname = xml.xpath("/timetable/option/subheading")[0].text
     return events, calname
 
 def main():

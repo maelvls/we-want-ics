@@ -1,6 +1,6 @@
 #! /bin/bash
 #
-# a.sh
+# gen_cal.sh
 # Copyright (C) 2016 Maël Valais <mael.valais@gmail.com>
 #
 #

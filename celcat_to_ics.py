@@ -94,7 +94,7 @@ def parse_celcat(f, filter=[]):
             ):
             ev_out['SUMMARY'] = course
             ev_out['LOCATION'] =\
-                ev.find("resources/room/item").text if ev.find("resources/room/item")!=None else ""
+                "; ".join([a.text for a in ev.findall("resources/room/item")]) if ev.find("resources/room/item")!=None else ""
             date = week_map[re.search("Y",ev.find("rawweeks").text).start()+1] + \
                             timedelta(days=int(ev.find("day").text))
             starttime = datetime.combine(date, datetime.strptime(ev.find("starttime").text, '%H:%M').time())
@@ -120,7 +120,7 @@ def main():
                    enable_colored_logging=False,
                    enable_colored_printing=True,
                    log_filename=args['--log'],
-                   print_level=logging.DEBUG if args['-v'] else logging.WARNING,
+                   print_level=logging.DEBUG if args['-v'] else logging.INFO,
                    logging_level=logging.DEBUG,
                    version=__version__)
 

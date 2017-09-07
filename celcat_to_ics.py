@@ -105,7 +105,7 @@ def parse_celcat(f, filter=[]):
             ev_out["CREATED"] = vDatetime(datetime.now()).to_ical()
             ev_out["LAST-MODIFIED"] = vDatetime(datetime.now()).to_ical()
             ev_out["DESCRIPTION"] = (
-                ("Remarques:\n" + ev.find("notes").text + "\n" if ev.find("notes") is not None else "")
+                ("Remarques:\n" + " ".join([a.text for a in ev.findall("notes")]) + "\n" if ev.find("notes") is not None else "")
                 + "Groupes:\n"+"".join("%s\n" % g for g in groups) + "\n"
                 + "Generated from CELCAT on: " + datetime.now().strftime("%d-%m-%Y %H:%M")
             )

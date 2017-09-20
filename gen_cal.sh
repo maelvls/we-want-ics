@@ -17,6 +17,8 @@ cat > $ICS/.htaccess <<-'EOF'
 Options +Indexes
 EOF
 
+cd $(dirname "$0")
+
 # Note for myself: in order to 'see' any calendar online without
 # knowning the 'g432432.html' ending, just add 'finder.html' instead
 #    https://edt.univ-tlse3.fr/FSI/2017_2018/M1/M1_INF_SIAME/g241742.xml

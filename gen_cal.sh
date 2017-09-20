@@ -5,6 +5,9 @@
 #
 #
 
+# Exit on any error in the script
+set -e
+
 ICS=.
 if [ ! -d "$ICS" ]; then mkdir "$ICS"; fi
 

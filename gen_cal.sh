@@ -38,7 +38,7 @@ curl -s -O https://edt.univ-tlse3.fr/FSI/2017_2018/L1/L1_SF/g254190.xml
 # curl https://edt.univ-tlse3.fr/FSI/2017_2018/L1/L1_SF/finder.xml | grep href= | cut -d'"' -f2 | while read l; echo $l; do curl -s https://edt.univ-tlse3.fr/FSI/2017_2018/L1/L1_SF/$l | grep EPINF2C1; done
 
 $PWD/celcat_to_ics.py g*.xml -r \
-	"L1 PM s2 TDA4:Logique 1" -o "$ICS"/mael.ics -v
+	"L1 PM s2 TDA4,L1 PM s2 TDA5:Logique 1" -o "$ICS"/mael.ics -v
 
 # Check the permissions
 find "$ICS" \( -type d -exec chmod ugo+rx {} \; \) -o \( -type f -exec chmod ugo+r {} \; \)

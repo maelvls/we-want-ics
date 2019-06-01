@@ -1,0 +1,2760 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gridttss.xsl"?>
+
+<timetable>
+<option combined="0" totalweeks="0" showemptydays="1" dayclass="reverse" titles="1" gridTimes="1">
+<link href="g254190.xml" class="xml">Version HTML imprimable</link>
+<weeks>Semaines</weeks>
+<dates>Dates</dates>
+<week>Semaine</week>
+<date>Date</date>
+<all>Toutes les semaines</all>
+<notes>Remarques</notes>
+<id>ID</id>
+<eventname>Nom de l'événement</eventname>
+<selectwk>Sélectionner une semaine</selectwk>
+<day>Jour</day>
+<timeevent>Horaire / événement</timeevent>
+<weekind>Semaine(s)</weekind>
+<details>Détails</details>
+<custom1>Custom 1</custom1>
+<custom2>Custom 2</custom2>
+<custom3>Custom 3</custom3>
+<footer>Publié 10/01/2018 04:01:04 - Universite Toulouse III - Paul Sabatier<br />Créé par 
+<a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
+<dept>Structure</dept>
+<evcat>Catégorie d'événement</evcat>
+<times>Heures</times>
+<subheading>Emploi du temps Groupe - L1 PM s2 TDA5</subheading></option>
+<property>
+<members>
+<title>Membres du Groupe</title>
+<item>L1 PM s2 GA511</item>
+<item>L1 PM s2 GA512</item>
+<item>L1 PM s2 GA513</item>
+<item>L1 PM s2 GA521</item>
+<item>L1 PM s2 GA522</item>
+<item>L1 PM s2 GA523</item>
+<item>L1 PM s2 TPA51</item>
+<item>L1 PM s2 TPA52</item></members></property>
+<period id="0" col="4" times="07:45 - 08:45" />
+<period id="1" col="8" times="08:45 - 08:55" />
+<period id="2" col="12" times="08:55 - 09:55" />
+<period id="3" col="16" times="09:55 - 10:05" />
+<period id="4" col="20" times="10:05 - 11:05" />
+<period id="5" col="24" times="11:05 - 11:15" />
+<period id="6" col="28" times="11:15 - 12:15" />
+<period id="7" col="32" times="12:15 - 12:35" />
+<period id="8" col="36" times="12:35 - 13:30" />
+<period id="9" col="40" times="13:30 - 13:40" />
+<period id="10" col="44" times="13:40 - 14:30" />
+<period id="11" col="48" times="14:30 - 14:40" />
+<period id="12" col="52" times="14:40 - 15:40" />
+<period id="13" col="56" />
+<period id="14" col="60" times="15:50 - 16:50" />
+<period id="15" col="64" times="16:50 - 17:00" />
+<period id="16" col="68" times="17:00 - 18:00" />
+<period id="17" col="72" times="18:00 - 18:10" />
+<period id="18" col="76" times="18:10 - 19:10" />
+<period id="19" col="80" times="19:10 - 19:20" />
+<period id="20" col="84" times="19:20 - 20:20" />
+<period id="21" col="88" times="20:20 - 23:59" />
+<span id="0" date="08/01/2018" rawix="21" rawlen="1">
+<description>Semaine 2, Semaine commençant le 08/01/2018</description>
+<title>2</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="1" date="15/01/2018" rawix="22" rawlen="1">
+<description>Semaine 3, Semaine commençant le 15/01/2018</description>
+<title>3</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="2" date="22/01/2018" rawix="23" rawlen="1">
+<description>Semaine 4, Semaine commençant le 22/01/2018</description>
+<title>4</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="3" date="29/01/2018" rawix="24" rawlen="1">
+<description>Semaine 5, Semaine commençant le 29/01/2018</description>
+<title>5</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="4" date="05/02/2018" rawix="25" rawlen="1">
+<description>Semaine 6, Semaine commençant le 05/02/2018</description>
+<title>6</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="5" date="12/02/2018" rawix="26" rawlen="1">
+<description>Semaine 7, Semaine commençant le 12/02/2018</description>
+<title>7</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="6" date="19/02/2018" rawix="27" rawlen="1">
+<description>Semaine 8, Semaine commençant le 19/02/2018</description>
+<title>8</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="7" date="26/02/2018" rawix="28" rawlen="1">
+<description>Semaine 9, Semaine commençant le 26/02/2018</description>
+<title>9</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="8" date="05/03/2018" rawix="29" rawlen="1">
+<description>Semaine 10, Semaine commençant le 05/03/2018</description>
+<title>10</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="9" date="12/03/2018" rawix="30" rawlen="1">
+<description>Semaine 11, Semaine commençant le 12/03/2018</description>
+<title>11</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="10" date="19/03/2018" rawix="31" rawlen="1">
+<description>Semaine 12, Semaine commençant le 19/03/2018</description>
+<title>12</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="11" date="26/03/2018" rawix="32" rawlen="1">
+<description>Semaine 13, Semaine commençant le 26/03/2018</description>
+<title>13</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="12" date="02/04/2018" rawix="33" rawlen="1">
+<description>Semaine 14, Semaine commençant le 02/04/2018</description>
+<title>14</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="13" date="09/04/2018" rawix="34" rawlen="1">
+<description>Semaine 15, Semaine commençant le 09/04/2018</description>
+<title>15</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="14" date="16/04/2018" rawix="35" rawlen="1">
+<description>Semaine 16, Semaine commençant le 16/04/2018</description>
+<title>16</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<event id="394591" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>0</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394591" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>0</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394591" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>0</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394591" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>0</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394591" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>0</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394591" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>0</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394591" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>0</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394591" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>0</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394591" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>0</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394591" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>0</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394512" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394512" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394512" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394512" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394512" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394512" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394512" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394512" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394512" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394512" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>0</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394625" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394625" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394625" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394625" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394625" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394625" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394652" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394652" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394652" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="394652" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>0</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="395276" timesort="07450955" colour="BEA7B8" ecs="4" ecc="12" er="0">
+<day>1</day>
+<prettytimes>07:45-09:55 COURS/TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:55</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="395397" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="395468" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>U1-201 TP INFO</item></room></resources></event>
+<event id="395468" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>U1-201 TP INFO</item></room></resources></event>
+<event id="395468" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>U1-201 TP INFO</item></room></resources></event>
+<event id="395468" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>U1-201 TP INFO</item></room></resources></event>
+<event id="397054" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="1">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>U1-202 TP INFO</item></room></resources></event>
+<event id="397054" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="1">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>U1-202 TP INFO</item></room></resources></event>
+<event id="397054" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="1">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>U1-202 TP INFO</item></room></resources></event>
+<event id="397054" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="1">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>U1-202 TP INFO</item></room></resources></event>
+<event id="395583" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>U1-201 TP INFO</item></room></resources></event>
+<event id="395583" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>U1-201 TP INFO</item></room></resources></event>
+<event id="395583" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>U1-201 TP INFO</item></room></resources></event>
+<event id="395583" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>U1-201 TP INFO</item></room></resources></event>
+<event id="397064" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="1">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>U1-202 TP INFO</item></room></resources></event>
+<event id="397064" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="1">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>U1-202 TP INFO</item></room></resources></event>
+<event id="397064" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="1">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>U1-202 TP INFO</item></room></resources></event>
+<event id="397064" timesort="10051215" colour="9FBFBF" ecs="20" ecc="12" er="1">
+<day>1</day>
+<prettytimes>10:05-12:15 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>U1-202 TP INFO</item></room></resources></event>
+<event id="395605" timesort="10051215" colour="FFBFBF" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="395605" timesort="10051215" colour="FFBFBF" ecs="20" ecc="12" er="0">
+<day>1</day>
+<prettytimes>10:05-12:15 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="449631" timesort="13151615" colour="9FBFBF" ecs="37" ecc="24" er="0" sca="1" scb="3">
+<day>1</day>
+<prettytimes>13:15-16:15 TP</prettytimes>
+<starttime>13:15</starttime>
+<endtime>16:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>3A_G22 TP</item></room></resources></event>
+<event id="449618" timesort="13151615" colour="9FBFBF" ecs="37" ecc="24" er="0" sca="1" scb="3">
+<day>1</day>
+<prettytimes>13:15-16:15 TP</prettytimes>
+<starttime>13:15</starttime>
+<endtime>16:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>3A_G19 TP</item></room></resources>
+<notes>salle g19<br /></notes></event>
+<event id="449618" timesort="13151615" colour="9FBFBF" ecs="37" ecc="24" er="0" sca="1" scb="3">
+<day>1</day>
+<prettytimes>13:15-16:15 TP</prettytimes>
+<starttime>13:15</starttime>
+<endtime>16:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>3A_G19 TP</item></room></resources>
+<notes>salle g19<br /></notes></event>
+<event id="449728" timesort="13151615" colour="9FBFBF" ecs="37" ecc="24" er="0" sca="1" scb="3">
+<day>1</day>
+<prettytimes>13:15-16:15 TP</prettytimes>
+<starttime>13:15</starttime>
+<endtime>16:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>3TP1-H8 TP Optique</item></room></resources></event>
+<event id="449728" timesort="13151615" colour="9FBFBF" ecs="37" ecc="24" er="0" sca="1" scb="3">
+<day>1</day>
+<prettytimes>13:15-16:15 TP</prettytimes>
+<starttime>13:15</starttime>
+<endtime>16:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>3TP1-H8 TP Optique</item></room></resources></event>
+<event id="449728" timesort="13151615" colour="9FBFBF" ecs="37" ecc="24" er="0" sca="1" scb="3">
+<day>1</day>
+<prettytimes>13:15-16:15 TP</prettytimes>
+<starttime>13:15</starttime>
+<endtime>16:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>3TP1-H8 TP Optique</item></room></resources></event>
+<event id="449727" timesort="13151615" colour="9FBFBF" ecs="37" ecc="24" er="1" sca="1" scb="3">
+<day>1</day>
+<prettytimes>13:15-16:15 TP</prettytimes>
+<starttime>13:15</starttime>
+<endtime>16:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>3TP1-H7 TP Optique</item></room></resources></event>
+<event id="449727" timesort="13151615" colour="9FBFBF" ecs="37" ecc="24" er="1" sca="1" scb="3">
+<day>1</day>
+<prettytimes>13:15-16:15 TP</prettytimes>
+<starttime>13:15</starttime>
+<endtime>16:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>3TP1-H7 TP Optique</item></room></resources></event>
+<event id="449727" timesort="13151615" colour="9FBFBF" ecs="37" ecc="24" er="0" sca="1" scb="3">
+<day>1</day>
+<prettytimes>13:15-16:15 TP</prettytimes>
+<starttime>13:15</starttime>
+<endtime>16:15</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>3TP1-H8 TP Optique</item></room></resources></event>
+<event id="449491" timesort="13151430" colour="FFBF7F" ecs="37" ecc="11" er="0" sca="1">
+<day>1</day>
+<prettytimes>13:15-14:30 EXAMEN</prettytimes>
+<starttime>13:15</starttime>
+<endtime>14:30</endtime>
+<category>EXAMEN</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salles">
+<item>3TP1-H7 TP Optique</item>
+<item>3TP1-H8 TP Optique</item></room></resources>
+<notes>cctp salles h7 et h8</notes></event>
+<event id="449368" timesort="14001430" colour="9FBFBF" ecs="47" ecc="1" er="0" sca="3">
+<day>1</day>
+<prettytimes>14:00-14:30 TP</prettytimes>
+<starttime>14:00</starttime>
+<endtime>14:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA51</item></group>
+<room title="Salle">
+<item>3TP1-H7 TP Optique</item></room></resources>
+<notes>séance tp 0</notes></event>
+<event id="449371" timesort="14001430" colour="9FBFBF" ecs="47" ecc="1" er="1" sca="3">
+<day>1</day>
+<prettytimes>14:00-14:30 TP</prettytimes>
+<starttime>14:00</starttime>
+<endtime>14:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salle">
+<item>3TP1-H8 TP Optique</item></room></resources>
+<notes>séance tp 0</notes></event>
+<event id="449493" timesort="14451600" colour="FFBF7F" ecs="55" ecc="6" er="0" sca="3" scb="3">
+<day>1</day>
+<prettytimes>14:45-16:00 EXAMEN</prettytimes>
+<starttime>14:45</starttime>
+<endtime>16:00</endtime>
+<category>EXAMEN</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TPA52</item></group>
+<room title="Salles">
+<item>3TP1-H7 TP Optique</item>
+<item>3TP1-H8 TP Optique</item></room></resources>
+<notes>cctp salles h7 et h8</notes></event>
+<event id="395725" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>2</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="395742" timesort="10051215" colour="BEA7B8" ecs="20" ecc="12" er="0">
+<day>2</day>
+<prettytimes>10:05-12:15 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396384" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>2</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396471" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="396471" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="396471" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="396471" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="396471" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="396471" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="396577" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="396577" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="396577" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="396577" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="396577" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>2</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-100</item></room></resources></event>
+<event id="393084" timesort="07450955" colour="BEA7B8" ecs="4" ecc="12" er="0">
+<day>3</day>
+<prettytimes>07:45-09:55 COURS/TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:55</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="393058" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi COTTON (3A)</item></room></resources></event>
+<event id="394042" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394042" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394042" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394042" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394042" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394042" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394042" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394042" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394042" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394042" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>3</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="393108" timesort="11151215" colour="BFBFFF" ecs="28" ecc="4" er="0">
+<day>3</day>
+<prettytimes>11:15-12:15 COURS</prettytimes>
+<starttime>11:15</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi COTTON (3A)</item></room></resources></event>
+<event id="394048" timesort="11151215" colour="BFBFFF" ecs="28" ecc="4" er="0">
+<day>3</day>
+<prettytimes>11:15-12:15 COURS</prettytimes>
+<starttime>11:15</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394048" timesort="11151215" colour="BFBFFF" ecs="28" ecc="4" er="0">
+<day>3</day>
+<prettytimes>11:15-12:15 COURS</prettytimes>
+<starttime>11:15</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394048" timesort="11151215" colour="BFBFFF" ecs="28" ecc="4" er="0">
+<day>3</day>
+<prettytimes>11:15-12:15 COURS</prettytimes>
+<starttime>11:15</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394048" timesort="11151215" colour="BFBFFF" ecs="28" ecc="4" er="0">
+<day>3</day>
+<prettytimes>11:15-12:15 COURS</prettytimes>
+<starttime>11:15</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394048" timesort="11151215" colour="BFBFFF" ecs="28" ecc="4" er="0">
+<day>3</day>
+<prettytimes>11:15-12:15 COURS</prettytimes>
+<starttime>11:15</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394048" timesort="11151215" colour="BFBFFF" ecs="28" ecc="4" er="0">
+<day>3</day>
+<prettytimes>11:15-12:15 COURS</prettytimes>
+<starttime>11:15</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394048" timesort="11151215" colour="BFBFFF" ecs="28" ecc="4" er="0">
+<day>3</day>
+<prettytimes>11:15-12:15 COURS</prettytimes>
+<starttime>11:15</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394048" timesort="11151215" colour="BFBFFF" ecs="28" ecc="4" er="0">
+<day>3</day>
+<prettytimes>11:15-12:15 COURS</prettytimes>
+<starttime>11:15</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2F1 - Optique géométrique</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="393132" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396927" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>3</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="393445" timesort="15501800" colour="BEA7B8" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 COURS/TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="396992" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPCL2A1 - Anglais</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S10 (face à la chaufferie)</item></room></resources></event>
+<event id="396992" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPCL2A1 - Anglais</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S10 (face à la chaufferie)</item></room></resources></event>
+<event id="396992" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPCL2A1 - Anglais</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S10 (face à la chaufferie)</item></room></resources></event>
+<event id="396992" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPCL2A1 - Anglais</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S10 (face à la chaufferie)</item></room></resources></event>
+<event id="396992" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPCL2A1 - Anglais</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S10 (face à la chaufferie)</item></room></resources></event>
+<event id="396992" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPCL2A1 - Anglais</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S10 (face à la chaufferie)</item></room></resources></event>
+<event id="396992" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPCL2A1 - Anglais</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S10 (face à la chaufferie)</item></room></resources></event>
+<event id="396992" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPCL2A1 - Anglais</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S10 (face à la chaufferie)</item></room></resources></event>
+<event id="396992" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPCL2A1 - Anglais</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S10 (face à la chaufferie)</item></room></resources></event>
+<event id="396992" timesort="15501800" colour="FFBFBF" ecs="60" ecc="12" er="0">
+<day>3</day>
+<prettytimes>15:50-18:00 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>18:00</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPCL2A1 - Anglais</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S10 (face à la chaufferie)</item></room></resources></event>
+<event id="393530" timesort="07450955" colour="BEA7B8" ecs="4" ecc="12" er="0">
+<day>4</day>
+<prettytimes>07:45-09:55 COURS/TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:55</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2D1 - Analyse</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="393532" timesort="10051215" colour="BFBFFF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi COTTON (3A)</item></room></resources></event>
+<event id="394064" timesort="10051215" colour="BFBFFF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394064" timesort="10051215" colour="BFBFFF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394064" timesort="10051215" colour="BFBFFF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394064" timesort="10051215" colour="BFBFFF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394064" timesort="10051215" colour="BFBFFF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394064" timesort="10051215" colour="BFBFFF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394062" timesort="10051215" colour="BFBFFF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394062" timesort="10051215" colour="BFBFFF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394062" timesort="10051215" colour="BFBFFF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="394246" timesort="10051105" colour="BFBFFF" ecs="20" ecc="4" er="0">
+<day>4</day>
+<prettytimes>10:05-11:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>11:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2C1 - Compléments de physique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi LE CHATELIER (2A)</item></room></resources></event>
+<event id="397263" timesort="10051215" colour="FFBFBF" ecs="20" ecc="12" er="0">
+<day>4</day>
+<prettytimes>10:05-12:15 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:15</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2B1 - Electrocinétique</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-204</item></room></resources></event>
+<event id="393654" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPMAP2E1 - Algèbre</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="442942" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="442942" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="442942" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="442942" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="442942" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="442942" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="442942" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="442942" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>S21 (face à la chaufferie)</item></room></resources></event>
+<event id="397162" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-302 (APP)</item></room></resources></event>
+<event id="397162" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-302 (APP)</item></room></resources></event>
+<event id="397162" timesort="13301540" colour="BEA7B8" ecs="40" ecc="16" er="0">
+<day>4</day>
+<prettytimes>13:30-15:40 COURS/TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:40</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPINF2C1 - Logique 1</item></module>
+<group title="Groupe">
+<item>L1 PM s2 TDA5</item></group>
+<room title="Salle">
+<item>U4-302 (APP)</item></room></resources></event>
+<event id="393665" timesort="15501650" colour="BFBFFF" ecs="60" ecc="4" er="0">
+<day>4</day>
+<prettytimes>15:50-16:50 COURS</prettytimes>
+<starttime>15:50</starttime>
+<endtime>16:50</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EPPHP2E1 - Mécanique newtonienne</item></module>
+<group title="Groupes">
+<item>L1 MI s2 TDA1</item>
+<item>L1 MI s2 TDA4</item>
+<item>L1 PM s2 CMA</item></group>
+<room title="Salle">
+<item>Amphi GRIGNARD (2A)</item></room></resources></event></timetable>

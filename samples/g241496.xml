@@ -1,0 +1,3366 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="gridttss.xsl"?>
+
+<timetable>
+<option combined="0" totalweeks="0" showemptydays="1" dayclass="reverse" titles="1" gridTimes="1">
+<link href="g241496.xml" class="xml">Version HTML imprimable</link>
+<weeks>Semaines</weeks>
+<dates>Dates</dates>
+<week>Semaine</week>
+<date>Date</date>
+<all>Toutes les semaines</all>
+<notes>Remarques</notes>
+<id>ID</id>
+<eventname>Nom de l'événement</eventname>
+<selectwk>Sélectionner une semaine</selectwk>
+<day>Jour</day>
+<timeevent>Horaire / événement</timeevent>
+<weekind>Semaine(s)</weekind>
+<details>Détails</details>
+<custom1>Custom 1</custom1>
+<custom2>Custom 2</custom2>
+<custom3>Custom 3</custom3>
+<footer>Publié 20/09/2017 01:40:50 - Universite Toulouse III - Paul Sabatier<br />Créé par 
+<a href="http://www.celcat.com" target="_parent">CELCAT Web Publisher</a></footer>
+<dept>Département</dept>
+<evcat>Catégorie d'événement</evcat>
+<times>Heures</times>
+<subheading>Emploi du temps Groupe - M1 INF-IARF (toutes sections et semestres confondus)</subheading></option>
+<property>
+<members>
+<title>Membres du Groupe</title>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IARF s1 GA111</item>
+<item>M1 INF-IARF s1 GA112</item>
+<item>M1 INF-IARF s1 GA113</item>
+<item>M1 INF-IARF s1 GA121</item>
+<item>M1 INF-IARF s1 GA122</item>
+<item>M1 INF-IARF s1 GA123</item>
+<item>M1 INF-IARF s1 GPA01</item>
+<item>M1 INF-IARF s1 GPA02</item>
+<item>M1 INF-IARF s1 GPA03</item>
+<item>M1 INF-IARF s1 GPA04</item>
+<item>M1 INF-IARF s1 GPA05</item>
+<item>M1 INF-IARF s1 GPA06</item>
+<item>M1 INF-IARF s1 GPA07</item>
+<item>M1 INF-IARF s1 GPA08</item>
+<item>M1 INF-IARF s1 TDA1</item>
+<item>M1 INF-IARF s1 TPA11</item>
+<item>M1 INF-IARF s1 TPA12</item>
+<item>M1 INF-IARF s2 CMA</item>
+<item>M1 INF-IARF s2 GA111</item>
+<item>M1 INF-IARF s2 GA112</item>
+<item>M1 INF-IARF s2 GA113</item>
+<item>M1 INF-IARF s2 GA121</item>
+<item>M1 INF-IARF s2 GA122</item>
+<item>M1 INF-IARF s2 GA123</item>
+<item>M1 INF-IARF s2 GPA01</item>
+<item>M1 INF-IARF s2 GPA02</item>
+<item>M1 INF-IARF s2 GPA03</item>
+<item>M1 INF-IARF s2 GPA04</item>
+<item>M1 INF-IARF s2 GPA05</item>
+<item>M1 INF-IARF s2 GPA06</item>
+<item>M1 INF-IARF s2 GPA07</item>
+<item>M1 INF-IARF s2 GPA08</item>
+<item>M1 INF-IARF s2 TDA1</item>
+<item>M1 INF-IARF s2 TPA11</item>
+<item>M1 INF-IARF s2 TPA12</item>
+<item>S1</item>
+<item>S2</item></members></property>
+<period id="0" col="4" times="07:45 - 08:45" />
+<period id="1" col="8" times="08:45 - 08:55" />
+<period id="2" col="12" times="08:55 - 09:55" />
+<period id="3" col="16" times="09:55 - 10:05" />
+<period id="4" col="20" times="10:05 - 11:05" />
+<period id="5" col="24" times="11:05 - 11:15" />
+<period id="6" col="28" times="11:15 - 12:15" />
+<period id="7" col="32" times="12:15 - 12:35" />
+<period id="8" col="36" times="12:35 - 13:30" />
+<period id="9" col="40" times="13:30 - 13:40" />
+<period id="10" col="44" times="13:40 - 14:30" />
+<period id="11" col="48" times="14:30 - 14:40" />
+<period id="12" col="52" times="14:40 - 15:40" />
+<period id="13" col="56" />
+<period id="14" col="60" times="15:50 - 16:50" />
+<period id="15" col="64" times="16:50 - 17:00" />
+<period id="16" col="68" times="17:00 - 18:00" />
+<period id="17" col="72" times="18:00 - 18:10" />
+<period id="18" col="76" times="18:10 - 19:10" />
+<period id="19" col="80" times="19:10 - 19:20" />
+<period id="20" col="84" times="19:20 - 20:20" />
+<span id="0" date="18/09/2017" rawix="5" rawlen="1">
+<description>Semaine 38, Semaine commençant le 18/09/2017</description>
+<title>38</title>
+<alleventweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="1" date="25/09/2017" rawix="6" rawlen="1">
+<description>Semaine 39, Semaine commençant le 25/09/2017</description>
+<title>39</title>
+<alleventweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="2" date="02/10/2017" rawix="7" rawlen="1">
+<description>Semaine 40, Semaine commençant le 02/10/2017</description>
+<title>40</title>
+<alleventweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" />
+<row id="1" /></day></span>
+<span id="3" date="09/10/2017" rawix="8" rawlen="1">
+<description>Semaine 41, Semaine commençant le 09/10/2017</description>
+<title>41</title>
+<alleventweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" />
+<row id="1" /></day></span>
+<span id="4" date="16/10/2017" rawix="9" rawlen="1">
+<description>Semaine 42, Semaine commençant le 16/10/2017</description>
+<title>42</title>
+<alleventweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="5" date="23/10/2017" rawix="10" rawlen="1">
+<description>Semaine 43, Semaine commençant le 23/10/2017</description>
+<title>43</title>
+<alleventweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="6" date="30/10/2017" rawix="11" rawlen="1">
+<description>Semaine 44, Semaine commençant le 30/10/2017</description>
+<title>44</title>
+<alleventweeks>NNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="7" date="06/11/2017" rawix="12" rawlen="1">
+<description>Semaine 45, Semaine commençant le 06/11/2017</description>
+<title>45</title>
+<alleventweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="8" date="13/11/2017" rawix="13" rawlen="1">
+<description>Semaine 46, Semaine commençant le 13/11/2017</description>
+<title>46</title>
+<alleventweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" />
+<row id="1" /></day></span>
+<span id="9" date="20/11/2017" rawix="14" rawlen="1">
+<description>Semaine 47, Semaine commençant le 20/11/2017</description>
+<title>47</title>
+<alleventweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" />
+<row id="1" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="10" date="27/11/2017" rawix="15" rawlen="1">
+<description>Semaine 48, Semaine commençant le 27/11/2017</description>
+<title>48</title>
+<alleventweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" />
+<row id="1" /></day></span>
+<span id="11" date="04/12/2017" rawix="16" rawlen="1">
+<description>Semaine 49, Semaine commençant le 04/12/2017</description>
+<title>49</title>
+<alleventweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" />
+<row id="1" /></day></span>
+<span id="12" date="11/12/2017" rawix="17" rawlen="1">
+<description>Semaine 50, Semaine commençant le 11/12/2017</description>
+<title>50</title>
+<alleventweeks>NNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="13" date="18/12/2017" rawix="18" rawlen="1">
+<description>Semaine 51, Semaine commençant le 18/12/2017</description>
+<title>51</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<span id="14" date="25/12/2017" rawix="19" rawlen="1">
+<description>Semaine 52, Semaine commençant le 25/12/2017</description>
+<title>52</title>
+<alleventweeks>NNNNNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</alleventweeks>
+<day id="0">
+<name>lundi</name>
+<row id="0" /></day>
+<day id="1">
+<name>mardi</name>
+<row id="0" /></day>
+<day id="2">
+<name>mercredi</name>
+<row id="0" /></day>
+<day id="3">
+<name>jeudi</name>
+<row id="0" /></day>
+<day id="4">
+<name>vendredi</name>
+<row id="0" /></day></span>
+<event id="327337" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FRENET (U2)</item></room></resources>
+<notes>Cours M.C.O. obligatoire</notes></event>
+<event id="274815" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="281168" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="281168" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="281168" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="291041" timesort="08001200" colour="9FBFBF" ecs="7" ecc="24" er="0" sca="3" scb="1">
+<day>0</day>
+<prettytimes>08:00-12:00 TP</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:00</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group></resources>
+<notes>SALLE AIP - PRIMECA</notes></event>
+<event id="274814" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="274814" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="274814" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="274814" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="305437" timesort="10051205" colour="BFBFDF" ecs="20" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>10:05-12:05 Tpne</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U1-208 TP INFO</item></room></resources></event>
+<event id="290926" timesort="10051205" colour="BFBFDF" ecs="20" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>10:05-12:05 Tpne</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-112 TP-INFO multimédia</item></room></resources></event>
+<event id="341791" timesort="13001330" colour="FFFFBF" ecs="39" ecc="1" er="0" sca="3">
+<day>0</day>
+<prettytimes>13:00-13:30 REUNION</prettytimes>
+<starttime>13:00</starttime>
+<endtime>13:30</endtime>
+<category>REUNION</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>L2 Info s1 CMA</item>
+<item>L3 INFO s1 CMA</item>
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources>
+<notes>Réunion information Relations Internationales - Mobilité pour les étudiants en Informatique</notes></event>
+<event id="290223" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>0</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>1TP1-BMIG</item></room></resources></event>
+<event id="290223" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>0</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>1TP1-BMIG</item></room></resources></event>
+<event id="290223" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>0</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>1TP1-BMIG</item></room></resources></event>
+<event id="290223" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>0</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>1TP1-BMIG</item></room></resources></event>
+<event id="290223" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>0</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>1TP1-BMIG</item></room></resources></event>
+<event id="290223" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>0</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>1TP1-BMIG</item></room></resources></event>
+<event id="281414" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>0</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-03</item></room></resources></event>
+<event id="290927" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="0" scb="1">
+<day>0</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-112 TP-INFO multimédia</item></room></resources></event>
+<event id="291047" timesort="13301730" colour="9FBFBF" ecs="40" ecc="30" er="0" scb="2">
+<day>0</day>
+<prettytimes>13:30-17:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>17:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group></resources>
+<notes>SALLE AIP - PRIMECA</notes></event>
+<event id="284317" timesort="15501750" colour="BFBFFF" ecs="60" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>15:50-17:50 COURS</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FRENET (U2)</item></room></resources></event>
+<event id="284317" timesort="15501750" colour="BFBFFF" ecs="60" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>15:50-17:50 COURS</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FRENET (U2)</item></room></resources></event>
+<event id="284317" timesort="15501750" colour="BFBFFF" ecs="60" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>15:50-17:50 COURS</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FRENET (U2)</item></room></resources></event>
+<event id="281056" timesort="15501750" colour="7FFF7F" ecs="60" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>15:50-17:50 CONFERENCE</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>CONFERENCE</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FRENET (U2)</item></room></resources></event>
+<event id="290918" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="290918" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="290918" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="290910" timesort="15501750" colour="FFBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>15:50-17:50 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-104</item></room></resources></event>
+<event id="337138" timesort="18102010" colour="BFBFFF" ecs="76" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>18:10-20:10 COURS</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="337138" timesort="18102010" colour="BFBFFF" ecs="76" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>18:10-20:10 COURS</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="337138" timesort="18102010" colour="BFBFFF" ecs="76" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>18:10-20:10 COURS</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="337138" timesort="18102010" colour="BFBFFF" ecs="76" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>18:10-20:10 COURS</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="337138" timesort="18102010" colour="BFBFFF" ecs="76" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>18:10-20:10 COURS</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="337138" timesort="18102010" colour="BFBFFF" ecs="76" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>18:10-20:10 COURS</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="337138" timesort="18102010" colour="BFBFFF" ecs="76" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>18:10-20:10 COURS</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="337138" timesort="18102010" colour="BFBFFF" ecs="76" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>18:10-20:10 COURS</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="337138" timesort="18102010" colour="BFBFFF" ecs="76" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>18:10-20:10 COURS</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="337137" timesort="18102010" colour="BFBFFF" ecs="76" ecc="11" er="0" scb="1">
+<day>0</day>
+<prettytimes>18:10-20:10 COURS</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources>
+<notes>Mise à Niveau MCS obligatoire</notes></event>
+<event id="277393" timesort="07450945" colour="FFBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>07:45-09:45 TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="277393" timesort="07450945" colour="FFBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>07:45-09:45 TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="277393" timesort="07450945" colour="FFBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>07:45-09:45 TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="277393" timesort="07450945" colour="FFBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>07:45-09:45 TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="277393" timesort="07450945" colour="FFBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>07:45-09:45 TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="277393" timesort="07450945" colour="FFBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>07:45-09:45 TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="277393" timesort="07450945" colour="FFBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>07:45-09:45 TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="277393" timesort="07450945" colour="FFBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>07:45-09:45 TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="277393" timesort="07450945" colour="FFBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>07:45-09:45 TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="277393" timesort="07450945" colour="FFBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>07:45-09:45 TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="284501" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="284501" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="284501" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="284501" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="284501" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="287845" timesort="10051205" colour="BEA7B8" ecs="20" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:05-12:05 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-110</item></room></resources></event>
+<event id="287845" timesort="10051205" colour="BEA7B8" ecs="20" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:05-12:05 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-110</item></room></resources></event>
+<event id="287845" timesort="10051205" colour="BEA7B8" ecs="20" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:05-12:05 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-110</item></room></resources></event>
+<event id="287845" timesort="10051205" colour="BEA7B8" ecs="20" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:05-12:05 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-110</item></room></resources></event>
+<event id="287845" timesort="10051205" colour="BEA7B8" ecs="20" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>10:05-12:05 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-110</item></room></resources></event>
+<event id="284241" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-203 TP INFO</item></room></resources></event>
+<event id="284241" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-203 TP INFO</item></room></resources></event>
+<event id="284241" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U1-210 TP INFO</item></room></resources></event>
+<event id="284241" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U1-209 TP INFO</item></room></resources></event>
+<event id="284246" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="1" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-205 TP INFO</item></room></resources></event>
+<event id="284246" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="1" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-208 TP INFO</item></room></resources></event>
+<event id="284246" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="1" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-208 TP INFO</item></room></resources></event>
+<event id="284246" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="1" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U1-208 TP INFO</item></room></resources></event>
+<event id="284275" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="0" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U1-204 TP INFO</item></room></resources></event>
+<event id="284275" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="0" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-217 TP INFO</item></room></resources></event>
+<event id="284275" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="0" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U1-204 TP INFO</item></room></resources></event>
+<event id="305422" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="1" scb="1">
+<day>1</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-205 TP INFO</item></room></resources></event>
+<event id="290913" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="290913" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="290913" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="290919" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="1" scb="1">
+<day>1</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-202 TP INFO</item></room></resources></event>
+<event id="290917" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="290917" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="290917" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="0" scb="1">
+<day>1</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="290920" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="1" scb="1">
+<day>1</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U1-205 TP INFO</item></room></resources></event>
+<event id="287793" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="287793" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="287793" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="287793" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="287814" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi DENJOY (U1)</item></room></resources></event>
+<event id="305426" timesort="07450945" colour="BFBFDF" ecs="4" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>07:45-09:45 Tpne</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U1-204 TP INFO</item></room></resources></event>
+<event id="337098" timesort="10051205" colour="FFBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>10:05-12:05 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-108</item></room></resources></event>
+<event id="337098" timesort="10051205" colour="FFBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>10:05-12:05 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-108</item></room></resources></event>
+<event id="337098" timesort="10051205" colour="FFBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>10:05-12:05 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-108</item></room></resources></event>
+<event id="337098" timesort="10051205" colour="FFBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>10:05-12:05 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-03</item></room></resources></event>
+<event id="337099" timesort="10051205" colour="FFBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>10:05-12:05 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-108</item></room></resources></event>
+<event id="337099" timesort="10051205" colour="FFBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>10:05-12:05 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-03</item></room></resources></event>
+<event id="337099" timesort="10051205" colour="FFBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>10:05-12:05 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-108</item></room></resources></event>
+<event id="337099" timesort="10051205" colour="FFBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>10:05-12:05 TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-108</item></room></resources></event>
+<event id="337073" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-202 TP INFO</item></room></resources></event>
+<event id="337073" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group></resources></event>
+<event id="337073" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group></resources></event>
+<event id="337075" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="1" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="337075" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="1" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group></resources></event>
+<event id="337075" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="1" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group></resources></event>
+<event id="337072" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-202 TP INFO</item></room></resources></event>
+<event id="337074" timesort="13301530" colour="9FBFBF" ecs="40" ecc="15" er="1" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="284461" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="0" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="284461" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="0" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="284461" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="0" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-212 TP INFO</item></room></resources></event>
+<event id="284461" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="0" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-212 TP INFO</item></room></resources></event>
+<event id="305438" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="1" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U1-205 TP INFO</item></room></resources></event>
+<event id="305438" timesort="13301530" colour="BFBFDF" ecs="40" ecc="15" er="1" scb="1">
+<day>2</day>
+<prettytimes>13:30-15:30 Tpne</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U1-205 TP INFO</item></room></resources></event>
+<event id="284551" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U1-210 TP INFO</item></room></resources></event>
+<event id="284551" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U1-210 TP INFO</item></room></resources></event>
+<event id="284551" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U1-207 TP Biologie Moléculaire</item></room></resources></event>
+<event id="284551" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U1-208 TP INFO</item></room></resources></event>
+<event id="284553" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="1" scb="1">
+<day>2</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-207 TP INFO</item></room></resources></event>
+<event id="284553" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="1" scb="1">
+<day>2</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-207 TP INFO</item></room></resources></event>
+<event id="284553" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="1" scb="1">
+<day>2</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-207 TP INFO</item></room></resources></event>
+<event id="284553" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="1" scb="1">
+<day>2</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-204 TP INFO</item></room></resources></event>
+<event id="305435" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="0" scb="1">
+<day>2</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U1-210 TP INFO</item></room></resources></event>
+<event id="294039" timesort="07450945" colour="9FBFBF" ecs="4" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>07:45-09:45 TP</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U1-209 TP INFO</item></room></resources></event>
+<event id="294041" timesort="07450945" colour="9FBFBF" ecs="4" ecc="11" er="1" scb="1">
+<day>3</day>
+<prettytimes>07:45-09:45 TP</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U1-205 TP INFO</item></room></resources></event>
+<event id="280631" timesort="07450945" colour="BFBFDF" ecs="4" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>07:45-09:45 Tpne</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-206 TP INFO</item></room></resources></event>
+<event id="291048" timesort="08001200" colour="9FBFBF" ecs="7" ecc="24" er="0" sca="3" scb="1">
+<day>3</day>
+<prettytimes>08:00-12:00 TP</prettytimes>
+<starttime>08:00</starttime>
+<endtime>12:00</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group></resources>
+<notes>SALLE AIP - PRIMECA</notes></event>
+<event id="281023" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="327369" timesort="10051205" colour="BFBFFF" ecs="20" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>10:05-12:05 COURS</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1A1 - Mise à  niveau</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FRENET (U2)</item></room></resources>
+<notes>Cours M.C.O. obligatoire</notes></event>
+<event id="287846" timesort="10051205" colour="BEA7B8" ecs="20" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>10:05-12:05 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-105</item></room></resources></event>
+<event id="287846" timesort="10051205" colour="BEA7B8" ecs="20" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>10:05-12:05 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-105</item></room></resources></event>
+<event id="287846" timesort="10051205" colour="BEA7B8" ecs="20" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>10:05-12:05 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-105</item></room></resources></event>
+<event id="287846" timesort="10051205" colour="BEA7B8" ecs="20" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>10:05-12:05 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-105</item></room></resources></event>
+<event id="287846" timesort="10051205" colour="BEA7B8" ecs="20" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>10:05-12:05 COURS/TD</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-105</item></room></resources></event>
+<event id="318063" timesort="13151330" colour="FFFFBF" ecs="37" ecc="3" er="0" sca="1">
+<day>3</day>
+<prettytimes>13:15-13:30 REUNION</prettytimes>
+<starttime>13:15</starttime>
+<endtime>13:30</endtime>
+<category>REUNION</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>U3-104</item></room></resources></event>
+<event id="284324" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-03</item></room></resources></event>
+<event id="284324" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-109</item></room></resources></event>
+<event id="284324" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-107</item></room></resources></event>
+<event id="284324" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>ALGECO 05 (Parking du bâtiment 3A)</item></room></resources></event>
+<event id="284324" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>ALGECO 05 (Parking du bâtiment 3A)</item></room></resources></event>
+<event id="284324" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-107</item></room></resources></event>
+<event id="284324" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-108</item></room></resources></event>
+<event id="284324" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-108</item></room></resources></event>
+<event id="284324" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1D1 - Modélisation et conception du parallélisme et de la répartition</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-108</item></room></resources></event>
+<event id="291046" timesort="13301730" colour="9FBFBF" ecs="40" ecc="30" er="0" scb="2">
+<day>3</day>
+<prettytimes>13:30-17:30 TP</prettytimes>
+<starttime>13:30</starttime>
+<endtime>17:30</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group></resources>
+<notes>SALLE AIP - PRIMECA</notes></event>
+<event id="290236" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-213 TP INFO</item></room></resources></event>
+<event id="290236" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-213 TP INFO</item></room></resources></event>
+<event id="290236" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-213 TP INFO</item></room></resources></event>
+<event id="290237" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="1" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-214 TP INFO</item></room></resources></event>
+<event id="290237" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="1" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-214 TP INFO</item></room></resources></event>
+<event id="290237" timesort="15501750" colour="9FBFBF" ecs="60" ecc="11" er="1" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 TP</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-214 TP INFO</item></room></resources></event>
+<event id="290256" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-213 TP INFO</item></room></resources></event>
+<event id="290256" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-213 TP INFO</item></room></resources></event>
+<event id="290257" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="1" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-214 TP INFO</item></room></resources></event>
+<event id="290257" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="1" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1F1 - Modélisation et calcul scientifique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-214 TP INFO</item></room></resources></event>
+<event id="305427" timesort="15501750" colour="BFBFDF" ecs="60" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>15:50-17:50 Tpne</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U1-205 TP INFO</item></room></resources></event>
+<event id="287843" timesort="18002000" colour="BFBFFF" ecs="72" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>18:00-20:00 COURS</prettytimes>
+<starttime>18:00</starttime>
+<endtime>20:00</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupes">
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="287843" timesort="18002000" colour="BFBFFF" ecs="72" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>18:00-20:00 COURS</prettytimes>
+<starttime>18:00</starttime>
+<endtime>20:00</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupes">
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="287843" timesort="18002000" colour="BFBFFF" ecs="72" ecc="15" er="0" scb="1">
+<day>3</day>
+<prettytimes>18:00-20:00 COURS</prettytimes>
+<starttime>18:00</starttime>
+<endtime>20:00</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupes">
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi FERMAT (1A)</item></room></resources></event>
+<event id="325391" timesort="18102010" colour="BFBF7F" ecs="76" ecc="11" er="0" scb="1">
+<day>3</day>
+<prettytimes>18:10-20:10 CONTROLE CONTINU</prettytimes>
+<starttime>18:10</starttime>
+<endtime>20:10</endtime>
+<category>CONTROLE CONTINU</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salles">
+<item>Amphi AMPERE (3A)</item>
+<item>Amphi COTTON (3A)</item></room></resources></event>
+<event id="284506" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="284506" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="284506" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1E1 - Théorie des langages et compilation</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="294055" timesort="07450945" colour="BFBFFF" ecs="4" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>07:45-09:45 COURS</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupes">
+<item>M1 INF-DC s1 CMA</item>
+<item>M1 INF-DL s1 CMA</item>
+<item>M1 INF-IARF s1 CMA</item>
+<item>M1 INF-IGAI s1 CMA</item>
+<item>M1 INF-IHM s1 CMA</item>
+<item>M1 INF-SIAME s1 CMA</item></group>
+<room title="Salle">
+<item>Amphi AMPERE (3A)</item></room></resources></event>
+<event id="287847" timesort="07450945" colour="BEA7B8" ecs="4" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>07:45-09:45 COURS/TD</prettytimes>
+<starttime>07:45</starttime>
+<endtime>09:45</endtime>
+<category>COURS/TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINA1H1 - Introduction à  la robotique</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 CMA</item></group>
+<room title="Salle">
+<item>U3-110</item></room></resources></event>
+<event id="299791" timesort="10051205" colour="9FBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-205 TP INFO</item></room></resources></event>
+<event id="299793" timesort="10051205" colour="9FBFBF" ecs="20" ecc="11" er="1" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-206 TP INFO</item></room></resources></event>
+<event id="299790" timesort="10051205" colour="BFBFDF" ecs="20" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 Tpne</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-205 TP INFO</item></room></resources></event>
+<event id="299792" timesort="10051205" colour="BFBFDF" ecs="20" ecc="11" er="1" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 Tpne</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-206 TP INFO</item></room></resources></event>
+<event id="290916" timesort="10051205" colour="BFBFDF" ecs="20" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 Tpne</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-201 TP INFO</item></room></resources></event>
+<event id="280504" timesort="10051205" colour="BFBFDF" ecs="20" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 Tpne</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-203 TP INFO</item></room></resources></event>
+<event id="299823" timesort="10051205" colour="9FBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-205 TP INFO</item></room></resources></event>
+<event id="299823" timesort="10051205" colour="9FBFBF" ecs="20" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-205 TP INFO</item></room></resources></event>
+<event id="299825" timesort="10051205" colour="9FBFBF" ecs="20" ecc="11" er="1" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-206 TP INFO</item></room></resources></event>
+<event id="299825" timesort="10051205" colour="9FBFBF" ecs="20" ecc="11" er="1" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 TP</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>TP</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-206 TP INFO</item></room></resources></event>
+<event id="299822" timesort="10051205" colour="BFBFDF" ecs="20" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 Tpne</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA11</item></group>
+<room title="Salle">
+<item>U3-205 TP INFO</item></room></resources></event>
+<event id="299824" timesort="10051205" colour="BFBFDF" ecs="20" ecc="11" er="1" scb="1">
+<day>4</day>
+<prettytimes>10:05-12:05 Tpne</prettytimes>
+<starttime>10:05</starttime>
+<endtime>12:05</endtime>
+<category>Tpne</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1B1 - Algorithmique avancée</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TPA12</item></group>
+<room title="Salle">
+<item>U3-206 TP INFO</item></room></resources></event>
+<event id="281408" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>4</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="281408" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>4</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="281408" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>4</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="281408" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>4</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="281408" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>4</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="281408" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>4</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="281408" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>4</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="281408" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>4</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="281408" timesort="13301530" colour="FFBFBF" ecs="40" ecc="15" er="0" scb="1">
+<day>4</day>
+<prettytimes>13:30-15:30 TD</prettytimes>
+<starttime>13:30</starttime>
+<endtime>15:30</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMINC1C1 - Modélisation et conception objet</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>S26 (face à la chaufferie)</item></room></resources></event>
+<event id="290907" timesort="15501750" colour="FFBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>15:50-17:50 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-104</item></room></resources></event>
+<event id="290907" timesort="15501750" colour="FFBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>15:50-17:50 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-104</item></room></resources></event>
+<event id="290907" timesort="15501750" colour="FFBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>15:50-17:50 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-104</item></room></resources></event>
+<event id="290907" timesort="15501750" colour="FFBFBF" ecs="60" ecc="11" er="0" scb="1">
+<day>4</day>
+<prettytimes>15:50-17:50 TD</prettytimes>
+<starttime>15:50</starttime>
+<endtime>17:50</endtime>
+<category>TD</category>
+<prettyweeks></prettyweeks>
+<rawweeks>NNNNNNNNNYNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN</rawweeks>
+<resources>
+<module title="Matière">
+<item>EMING1G1 - Programmation objet avancée en C++</item></module>
+<group title="Groupe">
+<item>M1 INF-IARF s1 TDA1</item></group>
+<room title="Salle">
+<item>U3-104</item></room></resources></event></timetable>

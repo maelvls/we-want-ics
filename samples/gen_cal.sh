@@ -8,7 +8,7 @@
 # Exit on any error in the script
 set -e
 
-ICS=/usr/local/WWW-personnel/Mael.Valais/ics/
+ICS=ics
 if [ ! -d "$ICS" ]; then mkdir "$ICS"; fi
 
 pip3 -q install icalendar lxml docopt || exit 1

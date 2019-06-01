@@ -143,7 +143,7 @@ def parse_celcat(f, filter=[]):
     return events, calname
 
 
-def main():
+def run():
     args = docopt(doc=__doc__, version=__version__)
     log = Quicklog(
         application_name="celcat_to_ics",
